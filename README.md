@@ -12,4 +12,4 @@ Run `npm install`.
 
 ## Usage
 
-Run `npm run dev` and then acess http://localhost:3000
+Run `npm run dev`.
