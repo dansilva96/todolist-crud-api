@@ -6,7 +6,7 @@ Technologies used for training: Express.js, MongoDB and Mongoose.
 
 ## Instalation
 
-You will need mongodb.
+You will need MongoDB on your PC.
 
 Run `npm install`.
 
