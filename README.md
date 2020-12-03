@@ -1,5 +1,9 @@
 # todolist-crud-api
 
+A simple API that allows you to perform CRUD actions.
+
+Technologies used for training: Express.js, MongoDB and Mongoose.
+
 ## Instalation
 
 You will need mongodb.
