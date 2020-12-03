@@ -2,7 +2,9 @@
 
 ## Instalation
 
-You have to install mongodb on your pc and run `npm install`.
+You will need mongodb.
+
+Run `npm install`.
 
 ## Usage
 
