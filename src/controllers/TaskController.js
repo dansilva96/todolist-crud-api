@@ -22,17 +22,17 @@ module.exports = {
     },
 
     async update(req, res) {
-        const task = await Task.findByIdAndUpdate(
-            req.params.id,
+        const task = await Task.findOneAndUpdate(
+            { _id: req.params.id},
             req.body,
-            { new: true }
+            { new: true, runValidators: true }
         )
 
         return res.json(task)
     },
 
     async destroy(req, res) {
-        await Task.findByIdAndRemove(req.params.id)
+        await Task.findByIdAndDelete(req.params.id)
 
         return res.send()
     }
